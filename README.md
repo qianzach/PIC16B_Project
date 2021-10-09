@@ -3,6 +3,6 @@ Fall 2021 Capstone Project for PIC 16B (Advanced Data Science with Python) with 
 
 ```
 . . .
-. . .
+. x .
 . . .
 ```
