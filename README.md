@@ -8,5 +8,6 @@ Several resources will be required in order to complete our project. First, we w
 ## Tools and Skills Required
 ## What You Will Learn
 ## Risks
+Potential limitations to our project include our limited understanding of network analysis and limitations to our data. The first obstacle we may face is having a limited understanding of network analysis. Since this topic is a foreign topic to our team, we will have to start by developing an understanding of the math behind network links, graphs, and clustering algorithms before implementing our code. Our understanding will thus determine the depth and scope of our project. Another limitation to our project may be our data. Since we are interested in clustering algorithms, we may find that our data lacks the depth and complexity we desire. Additionally if our data has multiple links, we may be looking at a hypergraph problem which will be out of our scope. Thus carefully sourcing and selecting our data will be essential.
 ## Ethics
 ## Tentative Timeline
