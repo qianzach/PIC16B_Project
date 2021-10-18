@@ -1,5 +1,5 @@
 # PIC16B_Project
-Fall 2021 Capstone Project for PIC 16B (Advanced Data Science with Python) with Renzo Tanaka-Wong
+Renzo Tanaka-Wong and Zach Qian's Fall 2021 Capstone Project for PIC 16B (Advanced Data Science with Python)
 
 ## Abstract
 Network analysis is a discipline of mathematics that is studied to identify relations among social structures through the use of networks and graph theory. For our project, we are broadly interested in exploring network-linked data to explore clustering methods, that is the aggregation of dense groups in our data, building a clustering algorithm to be tested against current clustering methods in practice, as well as exploring advanced visualization techniques to examine the complex relationships in our data. If our project proceeds smoothly, we hope to further explore simulation methods to understand how diseases and other social phenomenons spread throughout populations.
