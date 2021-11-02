@@ -1,15 +1,14 @@
-video{
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  
-.header {
-      position: relative;
-      height: 100vh;
-      text-align: center;
-      justify-content: center;
-    }
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+html { 
+  background:  url(https://giphy.com/gifs/Alissandra-Sementilli-anime-naruto-vs-sasuke-lPX7ZMdAYbr3DZkAPd/fullscreen) no-repeat center center fixed; 
+  background-size: cover;
+}
+h1{
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 3em;
+  margin: .2em .5em;
+  color: rgba(0,0,0, 0.3);
+}
+body {
+    height: 100%;
+}
