@@ -72,8 +72,8 @@ class WebSpider(scrapy.Spider):
             # Iterate through all of the projects
             for project in response.css("div.filmo-category-section")[0].css("div.filmo-row"):
                 # If any of the projects are Video Games we skip
-                if any(x == '\n(Video Game)\n' for x in project.css("*::text").extract()):
-                    pass
+                if any("Video Game" in x for x in project.css("*::text").extract()):
+                    pass 
                 else:
                     actor_name = response.css("span.itemprop::text").get() # Get actor name
                     movie_or_TV_name = project.css("b a::text").get() # Get project title
