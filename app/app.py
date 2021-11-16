@@ -172,8 +172,9 @@ def networks():
 
     fig = go.Figure(data=[edge_trace, node_trace],
                 layout=go.Layout(
-                    title='<br>Naruto network connections',
-                    titlefont=dict(size=16),
+                    title='<br>Anime Network Connections based on Naruto: Shippuden Voice Actor List',
+                    title_x = 0.5,
+                    titlefont=dict(size=22),
                     showlegend=False,
                     hovermode='closest',
                     margin=dict(b=20,l=5,r=5,t=40),
