@@ -16,8 +16,8 @@ app = Flask(__name__)
 def base():
     return render_template('base.html')
 
-@app.route('/chart1')
-def chart1():
+@app.route('/networks')
+def networks():
 #    df = pd.DataFrame({
 #       'Fruit': ['Apples', 'Oranges', 'Bananas', 'Apples', 'Oranges', 'Bananas'],
 #       'Amount': [4, 1, 2, 2, 4, 5],
@@ -190,8 +190,8 @@ def chart1():
     header = "Interactive Network Graph"
     return render_template('fig.html', header=header,graphJSON=graphJSON)
 
-@app.route('/chart2')
-def chart2():
+@app.route('/recommendations')
+def recommendations():
     df = pd.DataFrame({
         "Vegetables": ["Lettuce", "Cauliflower", "Carrots", "Lettuce", "Cauliflower", "Carrots"],
         "Amount": [10, 15, 8, 5, 14, 25],
