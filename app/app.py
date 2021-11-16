@@ -115,30 +115,6 @@ def networks():
 
 @app.route('/recommendations')
 def recommendations():
-
-
-    url = "web_scraper/no_games.csv"
-    df = pd.read_csv(url)
-    G = nx.from_pandas_edgelist(df, 
-                                source = "movie_or_TV_name", 
-                                target = "actor", 
-                                edge_attr=None, 
-                                create_using=nx.DiGraph())
-    n = 25
-
-
-    to_be_removed = [x for  x in G.nodes() if G.degree(x) <= n]
-    for x in to_be_removed:
-        G.remove_node(x)
-    temp = sorted(G.degree, key=lambda x: x[1], reverse=True)
-    topX = list()
-    for i in range(0, len(temp)):
-    if temp[i][0]  in df["movie_or_TV_name"].tolist():
-        topX.append(temp[i])
-
-    recs = pd.DataFrame(topX, columns=['show','degree strength'])  
-    recs = recs.iloc[1:] #remove shippuden
-    recs.head(n = 10)
     #load csv and output
     df = pd.DataFrame({
         "Vegetables": ["Lettuce", "Cauliflower", "Carrots", "Lettuce", "Cauliflower", "Carrots"],
