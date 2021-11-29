@@ -21,6 +21,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+-- explain web scraper and added functionality, and then explain networkx -- 
 
 ### Motivation
 

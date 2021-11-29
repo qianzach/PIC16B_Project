@@ -26,6 +26,7 @@ node_list = set(A+B)
 app.layout = html.Div([
     # Button to navigate to home page
     dcc.Link(html.Button('Home'), href='/', refresh=True),
+    # Title
     html.H1("Network Analysis with Dash", style={'text-align': 'center'}),
     # Create slider
     dcc.Slider(
