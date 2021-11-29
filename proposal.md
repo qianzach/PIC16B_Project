@@ -1,4 +1,4 @@
-# Initial Project Project
+# Initial Project Proposal
 Renzo Tanaka-Wong and Zachary Qian's Fall 2021 Capstone Project for PIC 16B (Advanced Data Science with Python)
 
 ## Abstract
