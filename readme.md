@@ -6,25 +6,28 @@
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#About-The-Project">About The Project</a>
       <ul>
-        <li><a href="#motivation">Motivation</a></li>
-        <li><a href="#packages">Packages</a></li>
+        <li><a href="#Motivation">Motivation</a></li>
+        <li><a href="#Packages">Packages</a></li>
       </ul>
     </li>
-    <li><a href="#getting-started">Local Installation Guide</a></li>
+    <li><a href="#installation-guide">Local Installation Guide</a></li>
     <li><a href="#Ethics">Ethics</a></li>
     <li><a href="#Limitations">Limitations</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#References">References</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
--- Insert detailed description, packages used, motivations, etc. --
+
+### Motivation
+
+### Packages
 
 <!-- INSTALLATION GUIDE -->
-## Installation Guide
+## Local Installation Guide
 -- Insert Description --
 
 <!-- ETHICS -->
