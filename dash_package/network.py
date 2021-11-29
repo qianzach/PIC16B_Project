@@ -22,12 +22,12 @@ B = list(df["movie_or_TV_name"].unique())
 node_list = set(A+B)
 
 
-# App layout
+# Create app layout
 app.layout = html.Div([
+    # Button to navigate to home page
     dcc.Link(html.Button('Home'), href='/', refresh=True),
-
     html.H1("Network Analysis with Dash", style={'text-align': 'center'}),
-
+    # Create slider
     dcc.Slider(
         id='my-slider',
         min=0,
@@ -37,9 +37,7 @@ app.layout = html.Div([
     ),
     html.Div(id='slider-output-container', children=[]),
     html.Br(),
-
     dcc.Graph(id='network_graph', figure={})
-
 ])
 
 # Connect the Plotly graph with Dash Components
@@ -49,24 +47,30 @@ app.layout = html.Div([
     [Input(component_id='my-slider', component_property='value')]
 )
 
+# Function to update graph output
 def update_graph(option_slctd):
+    # Print integer selected by slider
     print(option_slctd)
     print(type(option_slctd))
-
     container = "Minimum number of shared actors is: {}".format(option_slctd)
 
+    # Instatiate graph
     G = nx.Graph()
 
+    # Add nodes from node list
     for i in node_list:
         G.add_node(i)
 
+    # Add edges between nodes
     for i,j in df.iterrows():
         G.add_edges_from([(j["actor"],j["movie_or_TV_name"])])
 
+    # Remove nodes that don't satisfy integer condition set by slider
     to_be_removed = [x for  x in G.nodes() if G.degree(x) <= option_slctd]
     for x in to_be_removed:
         G.remove_node(x)
 
+    # Establish graph layout and node positions
     pos = nx.spring_layout(G, k=1.0, iterations=50)
 
     for n, p in pos.items():
@@ -115,7 +119,7 @@ def update_graph(option_slctd):
         node_info = adjacencies[0] +' # of connections: '+str(len(adjacencies[1]))
         node_trace['text']+=tuple([node_info])
 
-    # Plotly Express
+    # Plotly Express graph
     fig = go.Figure(data=[edge_trace, node_trace],
                 layout=go.Layout(
                     title='Naruto Network Connections based on Voice Actors',
@@ -133,7 +137,6 @@ def update_graph(option_slctd):
                     yaxis=dict(showgrid=False, zeroline=False, showticklabels=False)))
 
     return container, fig
-
 
 
 # Run App

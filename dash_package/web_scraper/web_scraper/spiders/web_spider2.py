@@ -1,4 +1,6 @@
-# to run
+# Web scraper for non-anime shows/movies
+
+#  to run
 # scrapy crawl web_spider2 -o results.csv
 
 # To view html response
