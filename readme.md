@@ -19,7 +19,7 @@ By: Renzo Tanaka-Wong and Zach Qian
       </ul>
       </ul>
     </li>
-    <li><a href="#Installation-Guide">Local Installation Guide</a></li>
+    <li><a href="#Local-Installation-Guide">Local Installation Guide</a></li>
     <li><a href="#Ethics">Ethics</a></li>
     <li><a href="#Limitations">Limitations</a></li>
     <li><a href="#References">References</a></li>
