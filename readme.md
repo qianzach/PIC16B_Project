@@ -12,7 +12,7 @@ By: Renzo Tanaka-Wong and Zach Qian
       <ul>
         <li><a href="#Motivation">Motivation</a></li>
         <li><a href="#Built-With">Built With</a></li>
-        <li><a href="Components">Components</a></li>
+        <li><a href="#Components">Components</a></li>
         <ul>
           <li><a href="#Webscraper">Webscraper</a></li>
           <li><a href="#Dashboard">Dashboard</a></li>
