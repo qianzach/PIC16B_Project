@@ -15,7 +15,7 @@ By: Renzo Tanaka-Wong and Zach Qian
         <li><a href="components">Components</a></li>
         <ul>
           <li><a href="#webscraper">Webscraper</a></li>
-          <li><a href="#Dashboard">Dashboard</a></li>
+          <li><a href="#dashboard">Dashboard</a></li>
       </ul>
       </ul>
     </li>
@@ -73,7 +73,7 @@ To install and run the application locally:
 4. Navigate to directory
    ```sh
    $ cd PIC16B_Project
-   $ python runpy
+   $ python run.py
    ```
 5. Run application open the following address in a web browser
    ```sh
