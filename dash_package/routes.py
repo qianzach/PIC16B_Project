@@ -12,7 +12,7 @@ def dashboard():
     return app.index()
 
 # Create route to recommendations page
-@app.server.route('/recommendations')
+@app.server.route('/about')
 def recommendations():
-    return "Under Construction"
+    return render_template('about.html')
 

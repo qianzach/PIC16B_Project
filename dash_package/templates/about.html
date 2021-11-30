@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+    <div class="about-section">
+        <div class="inner-container">
+            <a href="/" class="button" style="float:right;">Home</a>
+            <h1>About the Project</h1>
+            <p class="text">
+                This project was inspired by our shared interest in watching Anime. 
+                After scraping IMDb data of various animes, we found that our data was networked data - many actors were interconnected with each other through common shows.
+                This motivated us to create a movie/tv show recommendation engine based on the raw networked data of actors and projects they are a part of. 
+            </p>
+            <p class="text">
+                The recommendation engine combines two essential elements: a 
+                <a href="https://scrapy.org/">Scrapy</a>
+                web scraper and an interactive
+                <a href="https://plotly.com/dash/">Dash</a>
+                app to vizualize the recommendations! We include the following media: 
+            </p>
+            <div class="skills">
+                <span>Anime</span>
+                <span>TV Shows</span>
+                <span>Movies</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
