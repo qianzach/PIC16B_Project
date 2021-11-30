@@ -85,7 +85,7 @@ def update_graph(dd_value, slider_value):
                     hovermode='closest',
                     margin=dict(b=20,l=5,r=5,t=40),
                     annotations=[ dict(
-                        text="Note: Graph omits nodes with degress less than threshold, however node degree reflects the number of total connections prior to omitting nodes",
+                        text="Note: Graph omits nodes with degress less than threshold, however, degrees reflect the number of total connections prior to omitting nodes",
                         showarrow=False,
                         xref="paper", yref="paper",
                         x=0.005, y=-0.002) ],
