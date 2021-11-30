@@ -31,7 +31,16 @@ This project is a TV Show/Movie/Anime/(you name it!) recommendation engine power
 -- Insert description -- 
 
 ### Built With
--- Potentially discuss the packages used in project, networkx, dash, scrapy, etc. --
+* [Scrapy](https://scrapy.org/):
+Scrapy is a free and open-source web-crawling framework written in Python. We used Scrapy to scrape web data and create our network data. 
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/):
+Flask is a Python package used for web development. We used Flask to develop the server for our website as well as to integrate certain navigation components of our website.
+* [NetworkX](https://networkx.org/):
+NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. We used NetworkX to construct and analyze the complex relationships between actors and their projects.
+* [Plotly](https://plotly.com/):
+Plotly is a python library for complex, dynamic, and interactive data visualization. We used plotly to plot our network graphs. 
+* [Dash](https://plotly.com/dash/):
+Dash is a Python framework for creating interactive web applications. We used Dash to integrate flask and plotly to make a dynamic dashboard. 
 
 ### Components
 -- explain web scraper and added functionality (web_spider: for animes, searches for japanese actors and filters our video games, web_spider2: used for american tv shows and movies, i.e. doesn't search for japanese origin), next explain the networkx graphing proccess in functions.py (this will create the network graph based on the selected csv, it also filters out the minimum number of shared connections), finally gloss over dash app (it is an interactive dashboarding package that integrates plotly and flask) -- 
