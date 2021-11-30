@@ -1,5 +1,5 @@
 # Network Analysis Show Recommender
--- Insert Project Overview --
+By: Renzo Tanaka-Wong and Zach Qian
 <img src="television.png" alt="logo" width=50%/>
 
 <!-- TABLE OF CONTENTS -->
