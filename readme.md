@@ -13,6 +13,10 @@ By: Renzo Tanaka-Wong and Zach Qian
         <li><a href="#Motivation">Motivation</a></li>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="components">Components</a></li>
+        <ul>
+          <li><a href="#webscraper">Web Scraper</a></li>
+          <li><a href="#Dashboard">Dashboard</a></li>
+      </ul>
       </ul>
     </li>
     <li><a href="#installation-guide">Local Installation Guide</a></li>
@@ -43,6 +47,14 @@ Plotly is a python library for complex, dynamic, and interactive data visualizat
 Dash is a Python framework for creating interactive web applications. We used Dash to integrate flask and plotly to make a dynamic dashboard. 
 
 ### Components
+There are two main components to this project:
+
+#### 2. Web Scraper
+
+
+#### 1. Dash Board
+
+
 -- explain web scraper and added functionality (web_spider: for animes, searches for japanese actors and filters our video games, web_spider2: used for american tv shows and movies, i.e. doesn't search for japanese origin), next explain the networkx graphing proccess in functions.py (this will create the network graph based on the selected csv, it also filters out the minimum number of shared connections), finally gloss over dash app (it is an interactive dashboarding package that integrates plotly and flask) -- 
 
 <!-- INSTALLATION GUIDE -->
