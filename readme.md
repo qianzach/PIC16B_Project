@@ -57,20 +57,30 @@ After scraping our datasets, we built an interactive dashboard using Scrapy and 
 
 <!-- INSTALLATION GUIDE -->
 ## Local Installation Guide
+To install and run the application locally: 
 1. Clone the repo
    ```sh
-   $ git clone https...
+   $ git clone https://github.com/qianzach/PIC16B_Project.git
    ```
 2. Install packages  
-make sure you are in the folder `pic16b_project`
    ```sh
    $ pip install -r requirements.txt
    ```
-
-make sure your current working directory is `pic16b_project/webapp`
-```sh
-   $ python3 app.py
+3. Activate environment
+   ```sh
+   $ conda activate PIC16B
    ```
+4. Navigate to directory
+   ``sh
+   $ cd PIC16B_Project
+   $ python runpy
+   ```
+5. Run application
+   Open the following address in a web browser
+   ``sh
+   $ http://127.0.0.1:8050/
+   ```
+
 
 
 <!-- ETHICS -->
