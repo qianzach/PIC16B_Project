@@ -1,6 +1,6 @@
 # Network Analysis Show Recommender
 -- Insert Project Overview --
-<img src="television.png" alt="logo" width=30%/>
+<img src="television.png" alt="logo" width=150%/>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
