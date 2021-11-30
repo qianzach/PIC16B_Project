@@ -23,6 +23,9 @@ By: Renzo Tanaka-Wong and Zach Qian
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+If you have ever wondered what other shows the actors from your favorite tv show or movie are also on look no further!
+This project is a TV Show/Movie/Anime/(you name it!) Recommendation Engine powered by network analysis that provides recommendations based on the number of shared actors of a particular TV show, movie, or anime.
+
 -- explain web scraper and added functionality (web_spider: for animes, searches for japanese actors and filters our video games, web_spider2: used for american tv shows and movies, i.e. doesn't search for japanese origin), next explain the networkx graphing proccess in functions.py (this will create the network graph based on the selected csv, it also filters out the minimum number of shared connections), finally gloss over dash app (it is an interactive dashboarding package that integrates plotly and flask) -- 
 
 ### Motivation?
