@@ -1,5 +1,6 @@
 # Network Analysis Show Recommender
 By: Renzo Tanaka-Wong and Zach Qian
+<br>
 <img src="television.png" alt="logo" width=50%/>
 
 <!-- TABLE OF CONTENTS -->
