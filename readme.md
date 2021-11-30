@@ -28,7 +28,7 @@ By: Renzo Tanaka-Wong and Zach Qian
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-If you have ever wondered what other shows the actors from your favorite tv show or movie also star in look no further!
+If you have ever wondered what other shows the actors from your favorite TV show or movie also appear in look no further!
 This project is a TV Show/Movie/Anime/(you name it!) recommendation engine powered by network analysis, which provides recommendations based on the number of shared actors of a particular TV show, movie, or anime.
 
 ### Motivation
