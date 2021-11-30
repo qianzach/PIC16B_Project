@@ -27,10 +27,10 @@ app.layout = html.Div([
             id='dropdown',
             options=[
             {'label': 'Naruto Shippuden', 'value': 'naruto'},
+            {'label': 'One Piece', 'value': 'onepiece'},
             {'label': 'Jumanji: The Next Level', 'value': 'jumanji'},
             {'label': 'Star Trek: The Original Series', 'value': 'startrek'},
-            {'label': 'The Office', 'value': 'office'},
-            {'label': 'One Piece', 'value': 'onepiece'},
+            {'label': 'The Office', 'value': 'office'}
             ],
             value='startrek'
         ),
