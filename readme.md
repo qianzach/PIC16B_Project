@@ -27,7 +27,7 @@ By: Renzo Tanaka-Wong and Zach Qian
 If you have ever wondered what other shows the actors from your favorite tv show or movie are also on look no further!
 This project is a TV Show/Movie/Anime/(you name it!) recommendation engine powered by network analysis, which provides recommendations based on the number of shared actors of a particular TV show, movie, or anime.
 
-### Motivation?
+### Motivation
 -- Insert description -- 
 
 ### Built With
@@ -38,7 +38,7 @@ Flask is a Python package used for web development. We used Flask to develop the
 * [NetworkX](https://networkx.org/):
 NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. We used NetworkX to construct and analyze the complex relationships between actors and their projects.
 * [Plotly](https://plotly.com/):
-Plotly is a python library for complex, dynamic, and interactive data visualization. We used plotly to plot our network graphs. 
+Plotly is a python library for complex, dynamic, and interactive data visualization. We used plotly to visualize our network graphs. 
 * [Dash](https://plotly.com/dash/):
 Dash is a Python framework for creating interactive web applications. We used Dash to integrate flask and plotly to make a dynamic dashboard. 
 
