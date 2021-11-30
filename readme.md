@@ -70,12 +70,12 @@ To install and run the application locally:
    ```sh
    $ conda activate PIC16B
    ```
-4. Navigate to directory
+4. Navigate to directory and run application
    ```sh
    $ cd PIC16B_Project
    $ python run.py
    ```
-5. Run application open the following address in a web browser
+5. Open the following address in a web browser
    ```sh
    http://127.0.0.1:8050/
    ```
