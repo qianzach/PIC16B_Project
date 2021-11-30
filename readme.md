@@ -1,4 +1,4 @@
-# Network Analysis Show Recommender
+# Network Analysis Recommendation Engine
 By: Renzo Tanaka-Wong and Zach Qian
 <br>
 <img src="television.png" alt="logo" heeight=100% width=100%/>
