@@ -11,15 +11,15 @@ By: Renzo Tanaka-Wong and Zach Qian
       <a href="#About-The-Project">About The Project</a>
       <ul>
         <li><a href="#Motivation">Motivation</a></li>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="components">Components</a></li>
+        <li><a href="#Built-With">Built With</a></li>
+        <li><a href="Components">Components</a></li>
         <ul>
-          <li><a href="#webscraper">Webscraper</a></li>
-          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#Webscraper">Webscraper</a></li>
+          <li><a href="#Dashboard">Dashboard</a></li>
       </ul>
       </ul>
     </li>
-    <li><a href="#installation-guide">Local Installation Guide</a></li>
+    <li><a href="#Installation-Guide">Local Installation Guide</a></li>
     <li><a href="#Ethics">Ethics</a></li>
     <li><a href="#Limitations">Limitations</a></li>
     <li><a href="#References">References</a></li>
