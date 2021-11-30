@@ -78,7 +78,7 @@ def update_graph(dd_value, slider_value):
     # Plotly Express graph
     fig = go.Figure(data=[edge_trace, node_trace],
                 layout=go.Layout(
-                    title='Node Connections based on Shared Actors',
+                    title='Node Connections Based on Shared Actors',
                     title_x = 0.5,
                     titlefont=dict(size=22),
                     showlegend=False,
