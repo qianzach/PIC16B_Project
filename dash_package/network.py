@@ -26,10 +26,11 @@ app.layout = html.Div([
         dcc.Dropdown(
             id='dropdown',
             options=[
-            {'label': 'Naruto', 'value': 'naruto'},
-            {'label': 'Jumanji', 'value': 'jumanji'},
+            {'label': 'Naruto Shippuden', 'value': 'naruto'},
+            {'label': 'Jumanji: The Next Level', 'value': 'jumanji'},
             {'label': 'Star Trek: The Original Series', 'value': 'startrek'},
-            {'label': 'The Office', 'value': 'office'}
+            {'label': 'The Office', 'value': 'office'},
+            {'label': 'One Piece', 'value': 'onepiece'},
             ],
             value='startrek'
         ),

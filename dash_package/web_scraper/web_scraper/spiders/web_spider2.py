@@ -12,7 +12,7 @@ class WebSpider(scrapy.Spider):
     # Name of spider
     name = 'web_spider2'
 
-    # Starting point: Jumanji (2019) imdb url
+    # Starting point: Jumanji imdb url
     start_urls = ['https://www.imdb.com/title/tt7975244/']
 
     def parse(self, response):
@@ -59,7 +59,7 @@ class WebSpider(scrapy.Spider):
 
                 # Yield results in a dictionary
                 yield {
-                    "actor" : actor_name,
+                    "actor" : "Actor: " + actor_name,
                     "movie_or_TV_name" : movie_or_TV_name
                 }
 
