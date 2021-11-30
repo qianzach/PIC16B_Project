@@ -14,7 +14,7 @@ By: Renzo Tanaka-Wong and Zach Qian
         <li><a href="#built-with">Built With</a></li>
         <li><a href="components">Components</a></li>
         <ul>
-          <li><a href="#webscraper">Web Scraper</a></li>
+          <li><a href="#webscraper">Webscraper</a></li>
           <li><a href="#Dashboard">Dashboard</a></li>
       </ul>
       </ul>
@@ -28,7 +28,7 @@ By: Renzo Tanaka-Wong and Zach Qian
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-If you have ever wondered what other shows the actors from your favorite tv show or movie are also on look no further!
+If you have ever wondered what other shows the actors from your favorite tv show or movie also star in look no further!
 This project is a TV Show/Movie/Anime/(you name it!) recommendation engine powered by network analysis, which provides recommendations based on the number of shared actors of a particular TV show, movie, or anime.
 
 ### Motivation
@@ -49,8 +49,8 @@ Dash is a Python framework for creating interactive web applications. We used Da
 ### Components
 There are two main components to this project:
 
-#### 2. Web Scraper
-
+#### 2. Webscraper
+Using Scrapy, we created two webscrapers for finding shared actors on IMDb. The first scraper is designed for scraping anime data, and the second scraper is designed for all other TV shows and movies. Both scrapers starts on the IMDb page of a selected show, movie, or anime. Then they navigates to the Cast & Crew page and iterate through the cast members. The anime scraper then specifically searches for the origin of each actor (as there are both English-speaking and Japanese-speaking voice actors) and finds those that are from Japan. Then for each of these actors, it extracts all of the projects they are a part of , excluding video games. The second scraper similary extracts the data without checking for the origin of the actors. Both scrapers then reuturn the data as a csv file.
 
 #### 1. Dash Board
 
