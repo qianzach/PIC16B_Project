@@ -78,7 +78,7 @@ To install and run the application locally:
 5. Run application
    Open the following address in a web browser
    ```sh
-   $ http://127.0.0.1:8050/
+   http://127.0.0.1:8050/
    ```
 
 
