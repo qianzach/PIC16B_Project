@@ -55,10 +55,23 @@ Using Scrapy, we created two webscrapers for finding shared actors on IMDb. The 
 #### 1. Dash Board
 After scraping our datasets, we built an interactive dashboard using Scrapy and Dash that allows users to interact with the different datasets and explore the complex networked relationships between actors and their shared projects. The dashboard has two interactive elements: a dropdown menu to select the project and a slider to customize the nodes. After the user selects a project and slides the slider ot a specified integer value, the plot updates for the user specifications through a comprehensive function found in functions.py. The function instantiates a graph, constructs nodes and edges from the data of the selected project, and omits nodes that have degrees less than the specificed number of connections. The output is a plotly graph, with recommendations color coded by degree strength. 
 
-
 <!-- INSTALLATION GUIDE -->
 ## Local Installation Guide
--- Discuss how to set up the project locally (cloning the repo), how to set up environment (installation guide for all necessary packages), how to run the app (by navigating to the directory and running "python run.py") --
+1. Clone the repo
+   ```sh
+   $ git clone https...
+   ```
+2. Install packages  
+make sure you are in the folder `pic16b_project`
+   ```sh
+   $ pip install -r requirements.txt
+   ```
+
+make sure your current working directory is `pic16b_project/webapp`
+```sh
+   $ python3 app.py
+   ```
+
 
 <!-- ETHICS -->
 ## Ethics 
