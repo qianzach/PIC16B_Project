@@ -75,7 +75,7 @@ def create_graph(csv, min_connections):
 
     for node, adjacencies in enumerate(G.adjacency()):
         node_trace['marker']['color']+=tuple([len(adjacencies[1])])
-        node_info = adjacencies[0] +' # of connections: '+str(len(adjacencies[1]))
+        node_info = adjacencies[0] +' # of connections: '+str(len(adjacencies[1]) + min_connections)
         node_trace['text']+=tuple([node_info])
 
 
