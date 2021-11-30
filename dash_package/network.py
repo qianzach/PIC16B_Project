@@ -85,7 +85,7 @@ def update_graph(dd_value, slider_value):
                     hovermode='closest',
                     margin=dict(b=20,l=5,r=5,t=40),
                     annotations=[ dict(
-                        text="Note: Node degrees reflect the number of connections after ommiting nodes with degrees less than the minimum threshold",
+                        text="Note: Node degrees reflect the number of existing connections after ommiting nodes with degrees less than the minimum threshold",
                         showarrow=False,
                         xref="paper", yref="paper",
                         x=0.005, y=-0.002) ],
