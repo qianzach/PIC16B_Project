@@ -49,10 +49,10 @@ Dash is a Python framework for creating interactive web applications. We used Da
 ### Components
 There are two main components to this project:
 
-#### 2. Webscraper
+#### Webscraper
 Using Scrapy, we created two webscrapers for finding shared actors on IMDb. The first scraper is designed for scraping anime data, and the second scraper is designed for all other TV shows and movies. Both scrapers starts on the IMDb page of a selected show, movie, or anime. Then they navigates to the Cast & Crew page and iterate through the cast members. The anime scraper then specifically searches for the origin of each actor (as there are both English-speaking and Japanese-speaking voice actors) and finds those that are from Japan. Then for each of these actors, it extracts a complete list of the projects they are a part of, excluding video games. The second scraper similary extracts the data, but it does not search for the origin of the actors. Both scrapers then reuturn the data as a csv file.
 
-#### 1. Dash Board
+#### Dash Board
 After scraping our datasets, we built an interactive dashboard using Scrapy and Dash that allows users to interact with the different datasets and explore the complex networked relationships between actors and their shared projects. The dashboard has two interactive elements: a dropdown menu to select the project and a slider to customize the nodes. After the user selects a project and slides the slider ot a specified integer value, the plot updates for the user specifications through a comprehensive function found in functions.py. The function instantiates a graph, constructs nodes and edges from the data of the selected project, and omits nodes that have degrees less than the specificed number of connections. The output is a plotly graph, with recommendations color coded by degree strength. 
 
 <!-- INSTALLATION GUIDE -->
