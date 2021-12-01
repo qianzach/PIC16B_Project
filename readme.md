@@ -62,9 +62,9 @@ To install and run the application locally:
    ```sh
    $ git clone https://github.com/qianzach/PIC16B_Project.git
    ```
-2. Install packages  
+2. Create environment
    ```sh
-   $ pip install -r requirements.txt
+   $ conda create --PIC16B <env> --file requirements.txt
    ```
 3. Activate environment
    ```sh
