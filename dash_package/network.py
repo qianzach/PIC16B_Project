@@ -28,6 +28,7 @@ app.layout = html.Div([
             options=[
             {'label': 'Naruto Shippuden', 'value': 'naruto'},
             {'label': 'One Piece', 'value': 'onepiece'},
+            {'label': 'Black Clover', 'value': 'black_clover'},
             {'label': 'Jumanji: The Next Level', 'value': 'jumanji'},
             {'label': 'Star Trek: The Original Series', 'value': 'startrek'},
             {'label': 'The Office', 'value': 'office'}

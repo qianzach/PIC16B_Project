@@ -3,6 +3,9 @@ import plotly.graph_objects as go
 import networkx as nx
 
 def create_graph(csv, min_connections):
+    """
+    This function.. 
+    """
 
     # Import data
     url = 'dash_package/web_scraper/{}.csv'.format(csv)
