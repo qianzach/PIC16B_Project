@@ -70,23 +70,9 @@ app.layout = html.Div([
      Input(component_id='my-slider', component_property='value')]
 )
 
-#def name_formatter(dd_value):
-#    #name = ""
-#    if dd_value == "naruto":
-#        return "Nartuo Shippuden"
-#    elif dd_value == "onepice":
-#        return "One Piece"
-#    elif dd_value == "black_clover":
-#        return "Black Clover"
-#    elif dd_value == "jumanji":
-#        return "Jumanji: The Next Level"
-#    elif dd_value == "startrek":
-#        return "Star Trek: The Original Series"
-#    elif dd_value == "office":
-#        return "The Office"
-
 # Function to update graph output
 def update_graph(dd_value, slider_value):
+    #Make appearance better
     name = ""
     if dd_value == "naruto":
         name = "Nartuo Shippuden"
@@ -103,7 +89,7 @@ def update_graph(dd_value, slider_value):
 
     #container = "You have selected: {}".format(name)
     container = "You have selected: " + name
-    container2 = "Minimum number of shared actors you want: {}".format(slider_value) 
+    container2 = "Minimum number of shared actors you want to visualize: {}".format(slider_value) 
 
     edge_trace, node_trace = create_graph(dd_value, slider_value)
 
