@@ -33,7 +33,7 @@ app.layout = html.Div([
             {'label': 'Star Trek: The Original Series', 'value': 'startrek'},
             {'label': 'The Office', 'value': 'office'}
             ],
-            value='startrek'
+            value='naruto'
         ),
     html.Div(id='dd-output-container', children=[])
     ]),
@@ -73,7 +73,7 @@ app.layout = html.Div([
 # Function to update graph output
 def update_graph(dd_value, slider_value):
     container = "You have selected: {}".format(dd_value)
-    container2 = "Minimum number of shared actors is: {}".format(slider_value) 
+    container2 = "Minimum number of shared actors you want: {}".format(slider_value) 
 
     edge_trace, node_trace = create_graph(dd_value, slider_value)
 
