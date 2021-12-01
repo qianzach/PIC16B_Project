@@ -22,6 +22,7 @@ By: Renzo Tanaka-Wong and Zach Qian
     <li><a href="#Local-Installation-Guide">Local Installation Guide</a></li>
     <li><a href="#Ethics">Ethics</a></li>
     <li><a href="#Limitations">Limitations</a></li>
+    li><a href="#Discussion">Discussion</a></li>
     <li><a href="#References">References</a></li>
   </ol>
 </details>
