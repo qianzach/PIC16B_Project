@@ -13,6 +13,8 @@ def create_graph(csv, min_connections):
 
     we create a directed graph, compute centrality, and then add the parameters and custom colors, legend, etc we return the traces of the nodes and edges, which is used then in dash functionality
 
+    This function serves as a more streamlined way to generate figures based on the work we did in a jupyter notebook made into a function from our previous collaborations on local jupyter notebooks
+
     """
 
     # Import data
