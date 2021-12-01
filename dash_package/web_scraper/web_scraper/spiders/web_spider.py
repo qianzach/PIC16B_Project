@@ -13,7 +13,7 @@ class WebSpider(scrapy.Spider):
     name = 'web_spider'
 
     # Starting point: Naruto imdb url
-    start_urls = ['https://www.imdb.com/title/tt0988824/']
+    start_urls =  ['https://www.imdb.com/title/tt0988824/'] #insert url here, black clover url: ['https://www.imdb.com/title/tt7441658/']
 
     def parse(self, response):
         """
