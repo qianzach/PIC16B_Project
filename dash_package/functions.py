@@ -55,7 +55,7 @@ def create_graph(csv, min_connections):
         x=[],
         y=[],
         text=[],
-        mode='markers',
+        mode='markers', 
         hoverinfo='text',
         marker=dict(
             showscale=True,

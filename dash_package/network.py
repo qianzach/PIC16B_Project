@@ -90,7 +90,7 @@ def update_graph(dd_value, slider_value):
                         text="Note: Graph omits nodes with degress less than threshold, however, degrees reflect the number of total connections prior to omitting nodes",
                         showarrow=False,
                         xref="paper", yref="paper",
-                        x=0.005, y=-0.002) ],
+                        x=0.005, y=-0.002) ], template = 'plotly_dark',
                     xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
                     yaxis=dict(showgrid=False, zeroline=False, showticklabels=False)))
 

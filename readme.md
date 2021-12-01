@@ -32,7 +32,10 @@ If you have ever wondered what other shows the actors from your favorite TV show
 This project is a TV Show/Movie/Anime/(you name it) recommendation engine powered by network analysis, which provides recommendations based on the number of shared actors of a particular TV show, movie, or anime.
 
 ### Motivation
--- Insert description -- 
+Since the beginning of the project, we knew we wanted to work with some type of network-linked data. However, networks and graphs are extremely diverse in data science, mathematics, and computer science. Thus, we initially began with the [amazon reviews dataset](https://www.cs.cornell.edu/~arb/data/amazon-reviews/). As the quarter progressed, Team Karasuno wanted to tailor a capstone project to Asian culture, specifically Japanese culture. As both members of Team Karasuno identify with the AAPI community, we wanted to work on a project that not only represented our interests but also something that represented something in our culture, being anime. Anime is a Japanese film or TV show, and both members have fond memories of shows, such as *Naruto*, *Death Note*, *Demon Slayer*, and *Black Clover*. Because of this, we decided to think about how we could better recommend new anime-watchers using a given anime show and networks. Specifically, we used the forever-popular show, *Naruto: Shippuden* as our basis. Being enthusiasts that have watched this show in the Japanese version with English subtitles, we used the empirical observation that both of us enjoyed watching shows that had voice actors coming from other shows. Therefore, we based our recommendation system to select shows that had the most mutual voice actors in the show.
+
+Through this inspiration, we wanted to work on an anime recommendation engine purely based on networks. However, it is important to note that this system can be replicated using other shows not limited to anime. We explore this as well in our project, leading to a generalized recommendation engine for shows and movies from all countries.
+
 
 ### Built With
 * [Scrapy](https://scrapy.org/):
@@ -84,7 +87,9 @@ To install and run the application locally:
 
 <!-- ETHICS -->
 ## Ethics 
--- Insert Description --
+Although we see no ethical issues for our project, we want to recognize and emphasize that network analyses similar to our project can still be ethically harmful. In social network analysis (SNR), it is very much possible to violate ethical standards. In [Carl Kadushin's *Who benefits from network analysis: ethics of social network research] (https://doi.org/10.1016/j.socnet.2005.01.005), it becomes evident that basic data collection, such as demographic information on patients and study subjects can lead to not only spurious connections, but is a potential issue in data leak, as well as confidentiality. Another example would include military interrogation through connecting mutual suspects/subjects of interests in warfare, which can use similar models as our project.
+
+We see that although not directly having ethical concerns, the applications of our analysis can still raise concerns.
 
 <!-- LIMITATIONS -->
 ## Limitations
