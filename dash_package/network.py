@@ -33,7 +33,7 @@ app.layout = html.Div([
             {'label': 'Star Trek: The Original Series', 'value': 'startrek'},
             {'label': 'The Office', 'value': 'office'}
             ],
-            value='naruto'
+            value='naruto' #set as default because of inspiration
         ),
     html.Div(id='dd-output-container', children=[])
     ]),
@@ -70,9 +70,39 @@ app.layout = html.Div([
      Input(component_id='my-slider', component_property='value')]
 )
 
+#def name_formatter(dd_value):
+#    #name = ""
+#    if dd_value == "naruto":
+#        return "Nartuo Shippuden"
+#    elif dd_value == "onepice":
+#        return "One Piece"
+#    elif dd_value == "black_clover":
+#        return "Black Clover"
+#    elif dd_value == "jumanji":
+#        return "Jumanji: The Next Level"
+#    elif dd_value == "startrek":
+#        return "Star Trek: The Original Series"
+#    elif dd_value == "office":
+#        return "The Office"
+
 # Function to update graph output
 def update_graph(dd_value, slider_value):
-    container = "You have selected: {}".format(dd_value)
+    name = ""
+    if dd_value == "naruto":
+        name = "Nartuo Shippuden"
+    elif dd_value == "onepice":
+        name = "One Piece"
+    elif dd_value == "black_clover":
+        name = "Black Clover"
+    elif dd_value == "jumanji":
+        name = "Jumanji: The Next Level"
+    elif dd_value == "startrek":
+        name = "Star Trek: The Original Series"
+    elif dd_value == "office":
+        name = "The Office"
+
+    #container = "You have selected: {}".format(name)
+    container = "You have selected: " + name
     container2 = "Minimum number of shared actors you want: {}".format(slider_value) 
 
     edge_trace, node_trace = create_graph(dd_value, slider_value)
