@@ -93,7 +93,14 @@ We see that although not directly having ethical concerns, the applications of o
 
 <!-- LIMITATIONS -->
 ## Limitations
--- Insert Description --
+In our project, there exists two primary limitations, namely in data and the selection schema.
+
+First, since our data is purely based off a 2xn matrix of mutually exclusive values, we are unable to perform cluster analysis because the only cluster would trivially be the source nodes in our directed graph. Note that because of this mutual exclusion, directed graphs will yield the same results, as no show will appear in another show, and no voice actor will appear in another voice actor. Thus, we are unable to conduct more intensive computations/network summary statistics, such as local clustering coefficients. This leads to our second issue, as we are *slightly* pigeonholed to using a naive centrality-based recommendation system. 
+
+<!-- DISCUSSION -->
+## Discussion
+In our project, the first thing we would like to improve would be data collection. In our recommendation system, it would be interesting to approach the model with a multimodal perspective. In particular, we could use the network centrality in combination with basic statistics, such as net revenue, year, etc to recommend shows mathematically. Providing user inputs (preference of type of anime, year, genre, previously watched shows, etc.) would allow us to create some sort of propensity score. After this, we would take the Euclidean distance between the generated value and that of the shows in a given database and return the top 5 recommendataions with the least distance apart. Doing so would alleviate the naivete of our model. 
+
 
 <!-- REFERENCES -->
 ## References
