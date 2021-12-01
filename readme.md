@@ -92,4 +92,11 @@ To install and run the application locally:
 
 <!-- REFERENCES -->
 ## References
--- Insert Description --
+For website anatomy: 
+https://dash.plotly.com/basic-callbacks
+https://dash.plotly.com/dash-core-components/slider
+https://www.youtube.com/watch?v=fakRnkw0s9o
+
+For network analysis and visualization:
+https://networkx.org/
+https://plotly.com/python/network-graphs/
