@@ -1,10 +1,18 @@
 import pandas as pd
 import plotly.graph_objects as go
 import networkx as nx
+import string
 
 def create_graph(csv, min_connections):
     """
-    This function.. 
+    create_graph() is the function that enables us to generate the network visualization. 
+
+    our inputs are min_connections, which is an int that the user will input on the dash interface
+
+    csv is the file name, which we use to load our data more autonomously
+
+    we create a directed graph, compute centrality, and then add the parameters and custom colors, legend, etc we return the traces of the nodes and edges, which is used then in dash functionality
+
     """
 
     # Import data
