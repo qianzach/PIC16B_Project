@@ -96,7 +96,7 @@ We see that although not directly having ethical concerns, the applications of o
 ## Limitations
 In our project, there exists two primary limitations, namely in data and the selection schema.
 
-First, since our data is purely based off matrix of dimension $$(2,n)$$ with mutually exclusive values, we are unable to perform cluster analysis because the only cluster would trivially be the source nodes in our directed graph. Note that because of this mutual exclusion, directed graphs will yield the same results, as no show will appear in another show, and no voice actor will appear in another voice actor. Thus, we are unable to conduct more intensive computations/network summary statistics, such as local clustering coefficients. This leads to our second issue, as we are *slightly* pigeonholed to using a naive centrality-based recommendation system. 
+First, since our data is purely based off matrix of dimension 2xN with mutually exclusive values, we are unable to perform cluster analysis because the only cluster would trivially be the source nodes in our directed graph. Note that because of this mutual exclusion, directed graphs will yield the same results, as no show will appear in another show, and no voice actor will appear in another voice actor. Thus, we are unable to conduct more intensive computations/network summary statistics, such as local clustering coefficients. This leads to our second issue, as we are *slightly* pigeonholed to using a naive centrality-based recommendation system. 
 
 <!-- DISCUSSION -->
 ## Discussion
