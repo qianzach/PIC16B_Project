@@ -88,7 +88,7 @@ To install and run the application locally:
 
 <!-- ETHICS -->
 ## Ethics 
-Although we see no ethical issues for our project, we want to recognize and emphasize that network analyses similar to our project can still be ethically harmful. In social network analysis (SNR), it is very much possible to violate ethical standards. In [Carl Kadushin's *Who benefits from network analysis: ethics of social network research*] (https://doi.org/10.1016/j.socnet.2005.01.005), it becomes evident that basic data collection, such as demographic information on patients and study subjects can lead to not only spurious connections, but is a potential issue in data leak, as well as confidentiality. Another example would include military interrogation through connecting mutual suspects/subjects of interests in warfare, which can use similar models as our project.
+Although we see no ethical issues for our project, we want to recognize and emphasize that network analyses similar to our project can still be ethically harmful. In social network analysis (SNR), it is very much possible to violate ethical standards. In [Carl Kadushin's *Who benefits from network analysis: ethics of social network research*](https://doi.org/10.1016/j.socnet.2005.01.005), it becomes evident that basic data collection, such as demographic information on patients and study subjects can lead to not only spurious connections, but is a potential issue in data leak, as well as confidentiality. Another example would include military interrogation through connecting mutual suspects/subjects of interests in warfare, which can use similar models as our project.
 
 We see that although not directly having ethical concerns, the applications of our analysis can still raise concerns.
 
