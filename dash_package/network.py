@@ -72,6 +72,7 @@ app.layout = html.Div([
 
 # Function to update graph output
 def update_graph(dd_value, slider_value):
+    
     #Make appearance better
     name = ""
     if dd_value == "naruto":

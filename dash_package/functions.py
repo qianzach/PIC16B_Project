@@ -48,6 +48,7 @@ def create_graph(csv, min_connections):
     for n, p in pos.items():
         G.nodes[n]['pos'] = p
 
+    #init trace of edge plot
     edge_trace = go.Scatter(
         x=[],
         y=[],
@@ -55,12 +56,14 @@ def create_graph(csv, min_connections):
         hoverinfo='none',
         mode='lines')
 
+    #Put in cartesian graph
     for edge in G.edges():
         x0, y0 = G.nodes[edge[0]]['pos']
         x1, y1 = G.nodes[edge[1]]['pos']
         edge_trace['x'] += tuple([x0, x1, None])
         edge_trace['y'] += tuple([y0, y1, None])
 
+    #init trace of node plot
     node_trace = go.Scatter(
         x=[],
         y=[],
@@ -80,7 +83,7 @@ def create_graph(csv, min_connections):
                 titleside='right'
             ),
             line=dict(width=0)))
-
+    #put in cartesian graph
     for node in G.nodes():
         x, y = G.nodes[node]['pos']
         node_trace['x'] += tuple([x])

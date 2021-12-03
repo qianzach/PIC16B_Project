@@ -88,7 +88,7 @@ To install and run the application locally:
 
 <!-- ETHICS -->
 ## Ethics 
-Although we see no ethical issues for our project, we want to recognize and emphasize that network analyses similar to our project can still be ethically harmful. In social network analysis (SNR), it is very much possible to violate ethical standards. In [Carl Kadushin's *Who benefits from network analysis: ethics of social network research] (https://doi.org/10.1016/j.socnet.2005.01.005), it becomes evident that basic data collection, such as demographic information on patients and study subjects can lead to not only spurious connections, but is a potential issue in data leak, as well as confidentiality. Another example would include military interrogation through connecting mutual suspects/subjects of interests in warfare, which can use similar models as our project.
+Although we see no ethical issues for our project, we want to recognize and emphasize that network analyses similar to our project can still be ethically harmful. In social network analysis (SNR), it is very much possible to violate ethical standards. In [Carl Kadushin's *Who benefits from network analysis: ethics of social network research*](https://doi.org/10.1016/j.socnet.2005.01.005), it becomes evident that basic data collection, such as demographic information on patients and study subjects can lead to not only spurious connections, but is a potential issue in data leak, as well as confidentiality. Another example would include military interrogation through connecting mutual suspects/subjects of interests in warfare, which can use similar models as our project.
 
 We see that although not directly having ethical concerns, the applications of our analysis can still raise concerns.
 
@@ -96,7 +96,7 @@ We see that although not directly having ethical concerns, the applications of o
 ## Limitations
 In our project, there exists two primary limitations, namely in data and the selection schema.
 
-First, since our data is purely based off a 2xn matrix of mutually exclusive values, we are unable to perform cluster analysis because the only cluster would trivially be the source nodes in our directed graph. Note that because of this mutual exclusion, directed graphs will yield the same results, as no show will appear in another show, and no voice actor will appear in another voice actor. Thus, we are unable to conduct more intensive computations/network summary statistics, such as local clustering coefficients. This leads to our second issue, as we are *slightly* pigeonholed to using a naive centrality-based recommendation system. 
+First, since our data is purely based off matrix of dimension 2xN with mutually exclusive values, we are unable to perform cluster analysis because the only cluster would trivially be the source nodes in our directed graph. Note that because of this mutual exclusion, directed graphs will yield the same results, as no show will appear in another show, and no voice actor will appear in another voice actor. Thus, we are unable to conduct more intensive computations/network summary statistics, such as local clustering coefficients. This leads to our second issue, as we are *slightly* pigeonholed to using a naive centrality-based recommendation system. 
 
 <!-- DISCUSSION -->
 ## Discussion
