@@ -13,7 +13,7 @@ Two things that we're both especially proud of include the functionality/UI of o
 
 For the website interface, we're proud that the user is able to interact with the website and not stick with a static website. The drop-down menu and slider from the *Dash* callbacks in our website were, in our opinion, quite **nice**.
 
-For our network visualizations, we're proud in how we were able to glean some mathematical insight from the data we had. I also think that, combined with the *Dash* callbacks, we were able to make visualizations that were actually interpretable and useful for the recommendation engine.
+For our network visualizations, we're proud in how we were able to glean some mathematical insight from the data we had. We also think that, combined with the *Dash* callbacks, we were able to make visualizations that were actually interpretable and useful for the recommendation engine.
 
 ## What are **two** things you would suggest doing to further improve your project?*
 
@@ -37,7 +37,7 @@ Clearly, our final project is just a *tad* bit different, being a more applied p
 
 ## *How will your experience completing this project will help you in your future studies or career? Please be as specific as possible.*
 **Renzo:**
-This project has taught me a tremendous amount about how to effectively collaborate on a technical project. Understanding git was essential to navigating collaboration, and this project taught me about the importance of being meticulous and organizing code properly. Following graduation I will be working as a management consultant, specifically aligned to an analytical team, so I believe the experiences learned from this project will help me in my career. I thoroughly enjoyed my experiences working on this project and hope to continue using Python throughout my career!
+This project has taught me a tremendous amount about how to effectively collaborate on a technical project. Understanding git was essential to navigating collaboration, and this project taught me how to navigate git as well as the importance of being meticulous and organizing code properly. Following graduation I will be working as a management consultant, specifically aligned to an analytical team, so I believe the experiences learned from this project will help me in my career. I thoroughly enjoyed my experiences working on this project and hope to continue using Python throughout my career!
 
 
 **Zach:**
