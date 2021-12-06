@@ -30,6 +30,17 @@ Initially, we sought to implement a cutting edge clustering algorithm and then t
 
 Clearly, our final project is just a *tad* bit different, being a more applied project with centrality-based "clustering." This occurred when we pivoted away from the Amazon Reviews dataset that we initially wanted to use. Instead, we created a more user-oriented project that hosts a website and network visualizations to help recommend media to the user.
 
+## *What are three things you learned from the experience of completing your project? Data analysis techniques? Python packages? Git + GitHub? Etc?*
+1. We learned how to use *NetworkX* and how to conduct basic network analysis in Python (as well as data manipulation with different types of graphs). (NetworkX)
+2. We learned how to use Dash to integate attractive data visualization into a website. (Dash, flask)
+3. Finally, we learned the importance of having good data. Our data, as explained in the presentation, was a 2xN matrix with mutually exclusive values (column-wise), meaning we couldn't do as much clustering analysis because we were limited to what our basic network statistics gave us. The mutual exclusion of column-wise values effectively made the connections between nodes clearly sparse, which gave us probems.
+
+## *How will your experience completing this project will help you in your future studies or career? Please be as specific as possible.*
+**Renzo (L person):**
+
+**Zach:**
+Personally, this helped me understand just how difficult even "basic" network analysis is. My experiences from UM this summer with networks was a more statistical approach that helped me understand summary statistics, but I still lacked the ability to expertly apply current algorithms in use for clustering analysis, as well as fail to recognize early on the limitations of our data. Even with this, it has still helped me understand that I have a lot to learn in network-linked data. Despite being difficult, I am still very excited for the opportunity to conduct research with such data (and hopefully more complex) in my journey in higher education!
+
 
 
 
