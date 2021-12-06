@@ -36,7 +36,8 @@ Clearly, our final project is just a *tad* bit different, being a more applied p
 3. Finally, we learned the importance of having good data. Our data, as explained in the presentation, was a 2xN matrix with mutually exclusive values (column-wise), meaning we couldn't do as much clustering analysis because we were limited to what our basic network statistics gave us. The mutual exclusion of column-wise values effectively made the connections between nodes clearly sparse, which gave us probems.
 
 ## *How will your experience completing this project will help you in your future studies or career? Please be as specific as possible.*
-**Renzo (L person):**
+**Renzo:**
+
 
 **Zach:**
 Personally, this helped me understand just how difficult even "basic" network analysis is. My experiences from UM this summer with networks was a more statistical approach that helped me understand summary statistics, but I still lacked the ability to expertly apply current algorithms in use for clustering analysis, as well as fail to recognize early on the limitations of our data. Even with this, it has still helped me understand that I have a lot to learn in network-linked data. Despite being difficult, I am still very excited for the opportunity to conduct research with such data (and hopefully more complex) in my journey in higher education!
