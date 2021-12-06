@@ -37,6 +37,7 @@ Clearly, our final project is just a *tad* bit different, being a more applied p
 
 ## *How will your experience completing this project will help you in your future studies or career? Please be as specific as possible.*
 **Renzo:**
+This project has taught me a tremendous amount about how to effectively collaborate on a technical project. Understanding git was essential to navigating collaboration, and this project taught me about the importance of being meticulous and organizing code properly. Following graduation I will be working as a management consultant, specifically aligned to an analytical team, so I believe the experiences learned from this project will help me in my career.
 
 
 **Zach:**
