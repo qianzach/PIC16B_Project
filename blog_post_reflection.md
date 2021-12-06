@@ -48,3 +48,5 @@ Personally, this helped me understand just how difficult even "basic" network an
 
 Lastly, we'd like to thank Professor Phil Chodrow for being such an amazing professor this quarter. He was extremely supportive and insightful in giving us direction in both the projects and other assignments. We both thoroughly enjoyed going to lecture everyday, and we hope to have the privilege to take another class with him before we graduate.
 
+*- Team Karasuno*
+
