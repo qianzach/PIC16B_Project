@@ -37,12 +37,14 @@ Clearly, our final project is just a *tad* bit different, being a more applied p
 
 ## *How will your experience completing this project will help you in your future studies or career? Please be as specific as possible.*
 **Renzo:**
-This project has taught me a tremendous amount about how to effectively collaborate on a technical project. Understanding git was essential to navigating collaboration, and this project taught me about the importance of being meticulous and organizing code properly. Following graduation I will be working as a management consultant, specifically aligned to an analytical team, so I believe the experiences learned from this project will help me in my career.
+This project has taught me a tremendous amount about how to effectively collaborate on a technical project. Understanding git was essential to navigating collaboration, and this project taught me about the importance of being meticulous and organizing code properly. Following graduation I will be working as a management consultant, specifically aligned to an analytical team, so I believe the experiences learned from this project will help me in my career. I thoroughly enjoyed my experiences working on this project and hope to continue using Python throughout my career!
 
 
 **Zach:**
-Personally, this helped me understand just how difficult even "basic" network analysis is. My experiences from UM this summer with networks was a more statistical approach that helped me understand summary statistics, but I still lacked the ability to expertly apply current algorithms in use for clustering analysis, as well as fail to recognize early on the limitations of our data. Even with this, it has still helped me understand that I have a lot to learn in network-linked data. Despite being difficult, I am still very excited for the opportunity to conduct research with such data (and hopefully more complex) in my journey in higher education!
+Personally, this helped me understand just how difficult even "basic" network analysis is. My experiences from UM this summer with networks was a more statistical approach that helped me understand summary statistics, but I still lacked the ability to expertly apply current algorithms in use for clustering analysis, as well as fail to recognize early on the limitations of our data. Even with this, it has still helped me understand that I have a lot to learn in network-linked data. Despite being difficult, I am still very excited for the opportunity to conduct research with such data (and hopefully more complex) in my journey in higher education! Hopefully, I can take what I learned from this project as a graduate researcher and apply the lessons that I've learned, as well as the experience I now have with Python libraries involving network analysis.
 
 
+## Special Thanks
 
+Lastly, we'd like to thank Professor Phil Chodrow for being such an amazing professor this quarter. He was extremely supportive and insightful in giving us direction in both the projects and other assignments. We both thoroughly enjoyed going to lecture everyday, and we hope to have the privilege to take another class with him before we graduate.
 
