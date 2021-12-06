@@ -26,3 +26,10 @@ Next, we would like to incorporate more user interaction besides just the drop-d
 
 ## How does what you achieved compare to what you set out to do in your proposal? (if you didn't complete everything in your proposal, that's fine!)
 
+Initially, we sought to implement a cutting edge clustering algorithm and then to use it on a simulation study and present a Python package.
+
+Clearly, our final project is just a *tad* bit different, being a more applied project with centrality-based "clustering." This occurred when we pivoted away from the Amazon Reviews dataset that we initially wanted to use. Instead, we created a more user-oriented project that hosts a website and network visualizations to help recommend media to the user.
+
+
+
+
