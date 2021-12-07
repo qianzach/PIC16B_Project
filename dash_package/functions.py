@@ -83,6 +83,7 @@ def create_graph(csv, min_connections):
                 titleside='right'
             ),
             line=dict(width=0)))
+            
     #put in cartesian graph
     for node in G.nodes():
         x, y = G.nodes[node]['pos']

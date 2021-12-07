@@ -54,6 +54,7 @@ app.layout = html.Div([
     html.Div([
         dcc.Graph(id='network_graph', figure={})
     ])
+    
 ])
 
 # @app.callback(
@@ -76,7 +77,7 @@ def update_graph(dd_value, slider_value):
     #Make appearance better
     name = ""
     if dd_value == "naruto":
-        name = "Nartuo Shippuden"
+        name = "Naruto Shippuden"
     elif dd_value == "onepice":
         name = "One Piece"
     elif dd_value == "black_clover":
@@ -113,7 +114,7 @@ def update_graph(dd_value, slider_value):
 
     return container, container2, fig
 
-
+app.title = 'Network Visualization'
 # Run App
 if __name__ == '__main__':
     app.run_server(debug=True)
