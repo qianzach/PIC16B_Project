@@ -115,3 +115,11 @@ For network analysis and visualization:
 
 - https://networkx.org/
 - https://plotly.com/python/network-graphs/
+
+<!-- Contributions -->
+## Contributions
+**Renzo:** Created framework for dash app and callbacks, as well as integrated plotly to app.
+
+**Zach:** Focused on the network and preliminary data analysis and functions relating to the network visualizations that used *NetworkX*. 
+
+Both members of Team Karasuno worked on updating the stylistic elements of the website (i.e. background color, favicon, and website headers). We also cooperated in updating the original web scraper using *Scrapy* and *Spider*. 
